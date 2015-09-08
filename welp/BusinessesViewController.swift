@@ -26,7 +26,7 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
             tv.frame = UIScreen.mainScreen().bounds
             tv.backgroundColor = UIColor.cyanColor()
 
-            tv.registerClass(UITableViewCell.self, forCellReuseIdentifier: "UITableViewCell")
+            tv.registerClass(BusinessTableViewCell.self, forCellReuseIdentifier: "BusinessTableViewCell")
             tv.dataSource = self
             tv.delegate = self
 
@@ -52,7 +52,7 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
     }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = self.tableView.dequeueReusableCellWithIdentifier("UITableViewCell", forIndexPath: indexPath) as! UITableViewCell
+        let cell = self.tableView.dequeueReusableCellWithIdentifier("BusinessTableViewCell", forIndexPath: indexPath) as! UITableViewCell
         
         cell.textLabel?.text = "Oh hi, hello."
         

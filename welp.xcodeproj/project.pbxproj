@@ -12,6 +12,7 @@
 		842F5E4F1B9F68BC006BA18F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842F5E4E1B9F68BC006BA18F /* Images.xcassets */; };
 		842F5E521B9F68BC006BA18F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842F5E501B9F68BC006BA18F /* LaunchScreen.xib */; };
 		842F5E5E1B9F68BC006BA18F /* welpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F5E5D1B9F68BC006BA18F /* welpTests.swift */; };
+		84A4C56C1B9FA42800E8E066 /* BusinessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4C56B1B9FA42800E8E066 /* BusinessTableViewCell.swift */; };
 		C6BDE33BC02191CC681065C1 /* Pods_welp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7E34CF0814590667036D1C /* Pods_welp.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		842F5E571B9F68BC006BA18F /* welpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = welpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842F5E5C1B9F68BC006BA18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842F5E5D1B9F68BC006BA18F /* welpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welpTests.swift; sourceTree = "<group>"; };
+		84A4C56B1B9FA42800E8E066 /* BusinessTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessTableViewCell.swift; sourceTree = "<group>"; };
 		D64EF0EE4E886022DB71CEEC /* Pods-welp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-welp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-welp/Pods-welp.debug.xcconfig"; sourceTree = "<group>"; };
 		DC1CE64F18CF289122B1983C /* Pods-welp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-welp.release.xcconfig"; path = "Pods/Target Support Files/Pods-welp/Pods-welp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +139,7 @@
 		84A4C5691B9F9F2600E8E066 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				84A4C56B1B9FA42800E8E066 /* BusinessTableViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			files = (
 				842F5E4A1B9F68BC006BA18F /* BusinessesViewController.swift in Sources */,
 				842F5E481B9F68BC006BA18F /* AppDelegate.swift in Sources */,
+				84A4C56C1B9FA42800E8E066 /* BusinessTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
