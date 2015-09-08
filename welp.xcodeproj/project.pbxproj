@@ -90,6 +90,8 @@
 		842F5E441B9F68BB006BA18F /* welp */ = {
 			isa = PBXGroup;
 			children = (
+				84A4C56A1B9F9F3300E8E066 /* Models */,
+				84A4C5691B9F9F2600E8E066 /* Views */,
 				84A4C5681B9F9CB400E8E066 /* View Controllers */,
 				842F5E471B9F68BC006BA18F /* AppDelegate.swift */,
 				842F5E4E1B9F68BC006BA18F /* Images.xcassets */,
@@ -130,6 +132,20 @@
 				842F5E491B9F68BC006BA18F /* BusinessesViewController.swift */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		84A4C5691B9F9F2600E8E066 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		84A4C56A1B9F9F3300E8E066 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		B5D3297758822814AF05CB0B /* Pods */ = {
