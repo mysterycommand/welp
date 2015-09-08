@@ -13,6 +13,7 @@
 		842F5E4F1B9F68BC006BA18F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842F5E4E1B9F68BC006BA18F /* Images.xcassets */; };
 		842F5E521B9F68BC006BA18F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842F5E501B9F68BC006BA18F /* LaunchScreen.xib */; };
 		842F5E5E1B9F68BC006BA18F /* welpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F5E5D1B9F68BC006BA18F /* welpTests.swift */; };
+		C6BDE33BC02191CC681065C1 /* Pods_welp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7E34CF0814590667036D1C /* Pods_welp.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C7E34CF0814590667036D1C /* Pods_welp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_welp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		842F5E421B9F68BB006BA18F /* welp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = welp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842F5E461B9F68BC006BA18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842F5E471B9F68BC006BA18F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +38,8 @@
 		842F5E571B9F68BC006BA18F /* welpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = welpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842F5E5C1B9F68BC006BA18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842F5E5D1B9F68BC006BA18F /* welpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welpTests.swift; sourceTree = "<group>"; };
+		D64EF0EE4E886022DB71CEEC /* Pods-welp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-welp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-welp/Pods-welp.debug.xcconfig"; sourceTree = "<group>"; };
+		DC1CE64F18CF289122B1983C /* Pods-welp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-welp.release.xcconfig"; path = "Pods/Target Support Files/Pods-welp/Pods-welp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6BDE33BC02191CC681065C1 /* Pods_welp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +61,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F7D530A1B65F45F5D5F6CA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C7E34CF0814590667036D1C /* Pods_welp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		842F5E391B9F68BB006BA18F = {
 			isa = PBXGroup;
 			children = (
 				842F5E441B9F68BB006BA18F /* welp */,
 				842F5E5A1B9F68BC006BA18F /* welpTests */,
 				842F5E431B9F68BB006BA18F /* Products */,
+				B5D3297758822814AF05CB0B /* Pods */,
+				7F7D530A1B65F45F5D5F6CA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +127,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B5D3297758822814AF05CB0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D64EF0EE4E886022DB71CEEC /* Pods-welp.debug.xcconfig */,
+				DC1CE64F18CF289122B1983C /* Pods-welp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 842F5E611B9F68BC006BA18F /* Build configuration list for PBXNativeTarget "welp" */;
 			buildPhases = (
+				199D42A68D42DE42519C642E /* Check Pods Manifest.lock */,
 				842F5E3E1B9F68BB006BA18F /* Sources */,
 				842F5E3F1B9F68BB006BA18F /* Frameworks */,
 				842F5E401B9F68BB006BA18F /* Resources */,
+				06421649D243C8244AE0060F /* Embed Pods Frameworks */,
+				99E94EFD4E95C4759256D0C3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,6 +233,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06421649D243C8244AE0060F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-welp/Pods-welp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		199D42A68D42DE42519C642E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99E94EFD4E95C4759256D0C3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-welp/Pods-welp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		842F5E3E1B9F68BB006BA18F /* Sources */ = {
@@ -340,6 +415,7 @@
 		};
 		842F5E621B9F68BC006BA18F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D64EF0EE4E886022DB71CEEC /* Pods-welp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = welp/Info.plist;
@@ -350,6 +426,7 @@
 		};
 		842F5E631B9F68BC006BA18F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC1CE64F18CF289122B1983C /* Pods-welp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = welp/Info.plist;
@@ -411,6 +488,7 @@
 				842F5E631B9F68BC006BA18F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		842F5E641B9F68BC006BA18F /* Build configuration list for PBXNativeTarget "welpTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +497,7 @@
 				842F5E661B9F68BC006BA18F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
