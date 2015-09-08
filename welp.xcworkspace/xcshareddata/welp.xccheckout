@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3A7F7E41-46D6-44E4-BDF8-87D744A514DB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>welp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7CD8328EB22C59BB64353D7CE4F56EF99CA3F4DF</key>
+		<string>github.com:mysterycommand/welp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>welp.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7CD8328EB22C59BB64353D7CE4F56EF99CA3F4DF</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:mysterycommand/welp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7CD8328EB22C59BB64353D7CE4F56EF99CA3F4DF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7CD8328EB22C59BB64353D7CE4F56EF99CA3F4DF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>welp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

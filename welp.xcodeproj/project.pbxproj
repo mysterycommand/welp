@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		842F5E481B9F68BC006BA18F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F5E471B9F68BC006BA18F /* AppDelegate.swift */; };
-		842F5E4A1B9F68BC006BA18F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F5E491B9F68BC006BA18F /* ViewController.swift */; };
-		842F5E4D1B9F68BC006BA18F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842F5E4B1B9F68BC006BA18F /* Main.storyboard */; };
+		842F5E4A1B9F68BC006BA18F /* BusinessesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F5E491B9F68BC006BA18F /* BusinessesViewController.swift */; };
 		842F5E4F1B9F68BC006BA18F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842F5E4E1B9F68BC006BA18F /* Images.xcassets */; };
 		842F5E521B9F68BC006BA18F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842F5E501B9F68BC006BA18F /* LaunchScreen.xib */; };
 		842F5E5E1B9F68BC006BA18F /* welpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F5E5D1B9F68BC006BA18F /* welpTests.swift */; };
@@ -31,8 +30,7 @@
 		842F5E421B9F68BB006BA18F /* welp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = welp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842F5E461B9F68BC006BA18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842F5E471B9F68BC006BA18F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		842F5E491B9F68BC006BA18F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		842F5E4C1B9F68BC006BA18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		842F5E491B9F68BC006BA18F /* BusinessesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessesViewController.swift; sourceTree = "<group>"; };
 		842F5E4E1B9F68BC006BA18F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		842F5E511B9F68BC006BA18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		842F5E571B9F68BC006BA18F /* welpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = welpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,9 +90,8 @@
 		842F5E441B9F68BB006BA18F /* welp */ = {
 			isa = PBXGroup;
 			children = (
+				84A4C5681B9F9CB400E8E066 /* View Controllers */,
 				842F5E471B9F68BC006BA18F /* AppDelegate.swift */,
-				842F5E491B9F68BC006BA18F /* ViewController.swift */,
-				842F5E4B1B9F68BC006BA18F /* Main.storyboard */,
 				842F5E4E1B9F68BC006BA18F /* Images.xcassets */,
 				842F5E501B9F68BC006BA18F /* LaunchScreen.xib */,
 				842F5E451B9F68BC006BA18F /* Supporting Files */,
@@ -125,6 +122,14 @@
 				842F5E5C1B9F68BC006BA18F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84A4C5681B9F9CB400E8E066 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				842F5E491B9F68BC006BA18F /* BusinessesViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 		B5D3297758822814AF05CB0B /* Pods */ = {
@@ -219,7 +224,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842F5E4D1B9F68BC006BA18F /* Main.storyboard in Resources */,
 				842F5E521B9F68BC006BA18F /* LaunchScreen.xib in Resources */,
 				842F5E4F1B9F68BC006BA18F /* Images.xcassets in Resources */,
 			);
@@ -287,7 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842F5E4A1B9F68BC006BA18F /* ViewController.swift in Sources */,
+				842F5E4A1B9F68BC006BA18F /* BusinessesViewController.swift in Sources */,
 				842F5E481B9F68BC006BA18F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,14 +315,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		842F5E4B1B9F68BC006BA18F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				842F5E4C1B9F68BC006BA18F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		842F5E501B9F68BC006BA18F /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
