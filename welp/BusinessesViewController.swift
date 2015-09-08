@@ -24,7 +24,9 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
         self.tableView = UITableView()
         if let tv = self.tableView {
             tv.frame = UIScreen.mainScreen().bounds
+            tv.backgroundColor = UIColor.cyanColor()
 
+            tv.registerClass(UITableViewCell.self, forCellReuseIdentifier: "UITableViewCell")
             tv.dataSource = self
             tv.delegate = self
 
@@ -46,11 +48,14 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
     }
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        return 1
     }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = self.tableView.dequeueReusableCellWithIdentifier("UITableViewCell", forIndexPath: indexPath) as! UITableViewCell
+        
+        cell.textLabel?.text = "Oh hi, hello."
+        
         return cell
     }
 
