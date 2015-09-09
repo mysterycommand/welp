@@ -13,6 +13,14 @@
 		842F5E521B9F68BC006BA18F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842F5E501B9F68BC006BA18F /* LaunchScreen.xib */; };
 		842F5E5E1B9F68BC006BA18F /* welpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F5E5D1B9F68BC006BA18F /* welpTests.swift */; };
 		84A4C56C1B9FA42800E8E066 /* BusinessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4C56B1B9FA42800E8E066 /* BusinessTableViewCell.swift */; };
+		84A4C56E1B9FAD9C00E8E066 /* YelpBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4C56D1B9FAD9C00E8E066 /* YelpBusiness.swift */; };
+		84A4C5711B9FB65300E8E066 /* YelpLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4C5701B9FB65300E8E066 /* YelpLocation.swift */; };
+		84A4C5741B9FB74F00E8E066 /* YelpDeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4C5731B9FB74F00E8E066 /* YelpDeal.swift */; };
+		84A4C5761B9FB82000E8E066 /* YelpGiftCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4C5751B9FB82000E8E066 /* YelpGiftCertificate.swift */; };
+		84A4C5781B9FB87200E8E066 /* YelpDealOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4C5771B9FB87200E8E066 /* YelpDealOption.swift */; };
+		84A4C57A1B9FB8E000E8E066 /* YelpGiftCertificateOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4C5791B9FB8E000E8E066 /* YelpGiftCertificateOption.swift */; };
+		84A4C57C1B9FB9BD00E8E066 /* YelpReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4C57B1B9FB9BD00E8E066 /* YelpReview.swift */; };
+		84A4C57E1B9FB9FC00E8E066 /* YelpUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4C57D1B9FB9FC00E8E066 /* YelpUser.swift */; };
 		C6BDE33BC02191CC681065C1 /* Pods_welp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7E34CF0814590667036D1C /* Pods_welp.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -38,6 +46,14 @@
 		842F5E5C1B9F68BC006BA18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842F5E5D1B9F68BC006BA18F /* welpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welpTests.swift; sourceTree = "<group>"; };
 		84A4C56B1B9FA42800E8E066 /* BusinessTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessTableViewCell.swift; sourceTree = "<group>"; };
+		84A4C56D1B9FAD9C00E8E066 /* YelpBusiness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpBusiness.swift; sourceTree = "<group>"; };
+		84A4C5701B9FB65300E8E066 /* YelpLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpLocation.swift; sourceTree = "<group>"; };
+		84A4C5731B9FB74F00E8E066 /* YelpDeal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpDeal.swift; sourceTree = "<group>"; };
+		84A4C5751B9FB82000E8E066 /* YelpGiftCertificate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpGiftCertificate.swift; sourceTree = "<group>"; };
+		84A4C5771B9FB87200E8E066 /* YelpDealOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpDealOption.swift; sourceTree = "<group>"; };
+		84A4C5791B9FB8E000E8E066 /* YelpGiftCertificateOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpGiftCertificateOption.swift; sourceTree = "<group>"; };
+		84A4C57B1B9FB9BD00E8E066 /* YelpReview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpReview.swift; sourceTree = "<group>"; };
+		84A4C57D1B9FB9FC00E8E066 /* YelpUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpUser.swift; sourceTree = "<group>"; };
 		D64EF0EE4E886022DB71CEEC /* Pods-welp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-welp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-welp/Pods-welp.debug.xcconfig"; sourceTree = "<group>"; };
 		DC1CE64F18CF289122B1983C /* Pods-welp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-welp.release.xcconfig"; path = "Pods/Target Support Files/Pods-welp/Pods-welp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,6 +163,14 @@
 		84A4C56A1B9F9F3300E8E066 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				84A4C56D1B9FAD9C00E8E066 /* YelpBusiness.swift */,
+				84A4C5701B9FB65300E8E066 /* YelpLocation.swift */,
+				84A4C5731B9FB74F00E8E066 /* YelpDeal.swift */,
+				84A4C5771B9FB87200E8E066 /* YelpDealOption.swift */,
+				84A4C5751B9FB82000E8E066 /* YelpGiftCertificate.swift */,
+				84A4C5791B9FB8E000E8E066 /* YelpGiftCertificateOption.swift */,
+				84A4C57B1B9FB9BD00E8E066 /* YelpReview.swift */,
+				84A4C57D1B9FB9FC00E8E066 /* YelpUser.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -310,9 +334,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A4C5781B9FB87200E8E066 /* YelpDealOption.swift in Sources */,
+				84A4C57C1B9FB9BD00E8E066 /* YelpReview.swift in Sources */,
 				842F5E4A1B9F68BC006BA18F /* BusinessesViewController.swift in Sources */,
 				842F5E481B9F68BC006BA18F /* AppDelegate.swift in Sources */,
+				84A4C5761B9FB82000E8E066 /* YelpGiftCertificate.swift in Sources */,
 				84A4C56C1B9FA42800E8E066 /* BusinessTableViewCell.swift in Sources */,
+				84A4C5741B9FB74F00E8E066 /* YelpDeal.swift in Sources */,
+				84A4C56E1B9FAD9C00E8E066 /* YelpBusiness.swift in Sources */,
+				84A4C57A1B9FB8E000E8E066 /* YelpGiftCertificateOption.swift in Sources */,
+				84A4C57E1B9FB9FC00E8E066 /* YelpUser.swift in Sources */,
+				84A4C5711B9FB65300E8E066 /* YelpLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

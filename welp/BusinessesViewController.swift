@@ -11,6 +11,7 @@ import UIKit
 class BusinessesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     var tableView: UITableView!
+    var businesses: [YelpBusiness] = []
     
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -52,7 +53,7 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
     }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = self.tableView.dequeueReusableCellWithIdentifier("BusinessTableViewCell", forIndexPath: indexPath) as! UITableViewCell
+        let cell = self.tableView.dequeueReusableCellWithIdentifier("BusinessTableViewCell", forIndexPath: indexPath) as! BusinessTableViewCell
         
         cell.textLabel?.text = "Oh hi, hello."
         
