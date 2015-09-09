@@ -5,6 +5,7 @@ use_frameworks!
 
 target 'welp' do
 	pod 'AFNetworking'
+	pod 'BDBOAuth1Manager'
 end
 
 target 'welp' do

@@ -38,4 +38,6 @@ class YelpBusiness {
     var eat24_url: String = ""
     
     var reviews: [YelpReview] = []
+    
+    
 }
